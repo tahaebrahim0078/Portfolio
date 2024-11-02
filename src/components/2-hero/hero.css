@@ -1,0 +1,95 @@
+
+section.hero{
+    margin-top: 3rem;
+    
+}
+
+section.hero .left-section{
+    flex-grow: 1;
+    
+}
+
+.main-icon{
+    display: flex;
+    align-items: end;
+    gap: 1;
+    
+}
+.avatar{
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 1px;
+    padding-bottom: 5px;
+    box-shadow: 2px 2px 40px inset ;
+  
+}
+.icon-verified{
+    color: var(--blue);
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    
+    
+}
+
+.titly{
+    font-size: 3rem;
+    line-height: 3.3rem;
+    margin: 24px 0;
+    color: var(--title);
+}
+.suptitle{
+    color: var(--subtitle);
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+    margin-bottom: 32px;
+}
+.all-icons{
+    gap: 1.5rem;
+    font-size: 1.5rem;
+    
+    
+}
+.icon{
+    color: var(--subtitle);
+    transition: 0.1s;
+}
+.icon:hover{
+    font-size: 1.6rem;
+    cursor: pointer;
+    color: var(--blue);
+}
+.taha{
+    color: blueviolet;
+    font-weight: 500;
+}
+@media(max-width:500px){
+    .titly{
+        font-size: 2.5rem;
+    }
+    .main-icon{
+        width: 225px;
+    }
+}
+@media(max-width:450px){
+    .titly{
+        font-size: 2rem;
+    }
+    .suptitle{
+        font-size: 0.8rem;
+    }
+    .main-icon{
+        width: 200px;
+    }
+}
+@media(max-width:350px){
+    .titly{
+        font-size: 1.8rem;
+    }
+    .suptitle{
+        font-size: 0.8rem;
+    }
+    .main-icon{
+        width: 200px;
+    }
+}

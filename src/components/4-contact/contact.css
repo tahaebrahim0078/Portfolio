@@ -1,0 +1,89 @@
+.Contect-us{
+    transition: 0.5s;
+}
+
+.icon-envelope {
+  color: var(--subtitle);
+  margin-right: 1rem;
+  font-size: 1.8rem;
+}
+.titleC {
+  font-size: 2.1rem;
+  color: var(--title);
+  margin-bottom: 1rem;
+}
+.suppTitle {
+  color: var(--subtitle);
+  margin-bottom: 2rem;
+  line-height: 1.6rem;
+}
+
+label{
+    color: var(--subtitle);
+}
+
+section.Contect-us #email ,section.Contect-us #Message{
+
+    all: unset;
+    background-color: rgba(63, 63, 70, 0.15);
+    border: 1px solid rgb(63, 63, 70);
+    width: 16rem;
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+    border-radius: 5px;
+    transition: 0.5s;
+    font-size: 1.1rem;
+   
+
+}
+section.Contect-us #email:focus,section.Contect-us #Message:focus{
+    border: 1px solid var(--blue);
+}
+section.Contect-us #email:hover,section.Contect-us #Message:hover{
+    border: 1px solid var(--blue);
+}
+section.Contect-us #Message{
+    min-height: 9rem;
+    resize: vertical;
+}
+section.Contect-us  .submit{
+    background-color: var(--btn);
+    color: white;
+    
+    padding: 0.75rem 2rem;
+    text-align: center;
+    font-size: 1.05rem;
+    border: 1px solid rgb(63 63 70);
+    transition: 0.3s;
+    border-radius: 5px;
+    margin-top: 1.8rem;
+}
+section.Contect-us  .submit:hover{
+    scale: 0.97;
+    border: 1px solid var(--blue);
+}
+
+
+@media(max-width:680px){
+    .animation{
+        display: none;
+    }
+    .mainform{
+        display: flex;
+        flex-direction: column;
+         width: 85%;
+         margin-left: auto;
+         margin-right: auto;
+
+    }
+    form div.flex{
+        flex-direction: column;
+        align-items: start;
+    }
+    section.Contect-us #email ,section.Contect-us #Message{
+        width: 100%;
+        margin-left:0px ;
+        padding: 0.7rem 0rem;
+        margin-top: 1rem;
+    }
+}
